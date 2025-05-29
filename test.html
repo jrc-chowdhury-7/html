@@ -1,12 +1,49 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>test</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign In</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Working Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-rXnBdxkU0ZHDME9OVuV3pHJ9VjQlf9vZ1uPNgvnBWv+8j1sS2dLCZ3UO2z9VZyMn/OSjZ/FHg+FjNME04MFp3g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
 </head>
+
 <body>
-    <p style="color:blue; text-align:right;vertical-align: middle;">Sign in</p>
-    <br><p>Text <img src="icon.png" style="vertical-align: middle; text-align: right;"> with middle alignment.</p><br>
-    <p style="margin-left: 800px; margin-top: 80px;">
-  Text pushed 200px right and 80px down.
-</p>
+  <div class="container">
+    <div class="welcome">
+      <h1>Welcome<br>Back</h1>
+      <p>It is a long established fact that a reader will be distracted by<br>the readable content of a page when looking at its layout. The<br>point of using</p>
+      <div class="social-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+    </div>
+    <div class="login">
+      <h2>Sign in</h2>
+      <form>
+        <input type="email" placeholder="Email Address" required />
+        <input type="password" placeholder="Password" required />
+        <label><input type="checkbox" /> Remember Me</label>
+        <button type="submit">Sign in now</button>
+        <a href="#">Lost your password?</a>
+        <p>By clicking on 'Sign in now' you agree to<br>
+          <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
 </body>
 </html>
