@@ -12,21 +12,41 @@ body{
     color: white;
     margin-top: 150px;
     margin-left: 300px;
+}
+.ffpr{
     float: left;
-}
-.spr{
-    color: white;
-    margin-top: 150px;
-    margin-right: 350px;
-    float:right
-}
-.tpr{
-    color: white;
-    clear: both;
-    
 }
 .frpr{
     color: white;
     margin-left: 300px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.spr{
+    color: white;
+    margin-top: 100px;
+    margin-right: 350px;
+    float:right
+}
+.sfpr{
+      color: white;
+      margin-right: 180px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      float: right;
+}
+.tpr{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.inp{
+    width: 200%;
+    padding: 8px;
+   
+}
+.btn{
+    color: white;
+    background:rgba(23, 153, 204, 0.418);
+    padding: 8px;
+    border: white;
+   
 }
