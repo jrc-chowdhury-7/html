@@ -1,0 +1,14 @@
+/* Target table and its cells */
+.tbl1,
+.tbl1 td,
+.tbl1 th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Zebra-striping for odd rows */
+.tbl1 tr:nth-child(odd) {
+  background-color: aqua;
+}

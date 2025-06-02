@@ -1,0 +1,49 @@
+
+.tbl1,
+.tbl1 td,
+.tbl1 th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+.tbl1 tr:nth-child(odd){
+    background-color: aqua;
+    }
+      
+.tbl2,
+.tbl2 td,
+.tbl2 th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+.tbl2 td:nth-child(odd),.tbl2 th:nth-child(odd){
+    background-color: aqua;
+    }
+ 
+.tbl3,
+.tbl3 td,
+.tbl3 th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+.tbl3 tr:nth-child(even){
+    background-color: aqua;
+    }
+      
+.tbl3,
+.tbl3 td,
+.tbl3 th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+.tbl3 td:nth-child(even),.tbl3 th:nth-child(even){
+    background-color: aqua;
+    }
+        
