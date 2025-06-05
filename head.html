@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Head</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="5">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-    
+    <p id="demo">TEXT CHANGING BY CLICK ME</p>
+    <script>
+        function myfu() {
+            document.getElementById("demo").style.fontSize="30px";
+            document.getElementById("demo").style.backgroundColor="green";
+            document.getElementById("demo").style.color="blue";
+        }
+        
+    </script>
+    <button type="button" onclick="myfu()">Click me</button>
 </body>
 </html>
