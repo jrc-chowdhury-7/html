@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .r8{
+            padding: 20px;
+            background-color: aqua;
+            width: 33%;
+            float:left;
+            text-align: center;
+        }
+        .mdl{
+           padding: 20px;
+            background-color: gold;
+            width: 33%;
+            float:left;
+            text-align: center;
+        }
+        .lft{
+            padding: 20px;
+            background-color:rgb(63, 216, 63);
+            width: 34%;
+            float: right;
+            text-align: center;
+        }
+        @media screen and (max-width:900px){
+            .r8,.mdl,.lft{
+                width: 100%;
+            }
+
+        }
+    </style>
+    <title>RWD3</title>
+</head>
+<body>
+    <h1 style="font-size: 5vw;">THIS IS ME</h1>
+    <div class="r8">
+        THE RIGHT
+    </div>
+    <div class="mdl">
+        THE MIDDLE
+    </div>
+    <div class="lft">
+        THE LEFT
+    </div>
+</body>
+</html>
